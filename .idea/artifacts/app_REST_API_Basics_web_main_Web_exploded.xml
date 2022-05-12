@@ -1,0 +1,45 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="app-REST-API-Basics.web.main:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/app_REST_API_Basics_web_main_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="app-REST-API-Basics.web.main/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="app-REST-API-Basics.web.main" />
+          <element id="module-output" name="app-REST-API-Basics.model.main" />
+          <element id="module-output" name="app-REST-API-Basics.core.main" />
+          <element id="module-output" name="app-REST-API-Basics.service.main" />
+          <element id="module-output" name="app-REST-API-Basics.main" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.13.2" />
+          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.13.2" />
+          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.13.2" />
+          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.13.2" />
+          <element id="library" level="project" name="Gradle: org.apache.tomcat.embed:tomcat-embed-core:10.1.0-M14" />
+          <element id="library" level="project" name="Gradle: org.apache.tomcat:tomcat-annotations-api:10.1.0-M14" />
+          <element id="library" level="project" name="Gradle: org.modelmapper:modelmapper:3.1.0" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-beans:5.3.20" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-aop:5.3.19" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-core:5.3.20" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-expression:5.3.19" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-context:5.3.19" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-jdbc:5.3.19" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-jcl:5.3.20" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-web:5.3.19" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-tx:5.3.20" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-webmvc:5.3.19" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-beans:5.3.19" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-core:5.3.19" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-jcl:5.3.19" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-tx:5.3.19" />
+          <element id="library" level="project" name="Gradle: org.junit.jupiter:junit-jupiter-api:5.8.1" />
+          <element id="library" level="project" name="Gradle: org.junit.jupiter:junit-jupiter-engine:5.8.1" />
+          <element id="library" level="project" name="Gradle: org.junit.platform:junit-platform-commons:1.8.1" />
+          <element id="library" level="project" name="Gradle: org.opentest4j:opentest4j:1.2.0" />
+          <element id="library" level="project" name="Gradle: org.junit.platform:junit-platform-engine:1.8.1" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,14 @@
+
+
+dependencies {
+    implementation project(":model")
+    implementation project(":core")
+    implementation project(":persistence")
+
+    implementation group: 'org.springframework', name: 'spring-webmvc', version: '5.3.19'
+    compileOnly group: 'javax.servlet', name: 'javax.servlet-api', version: '4.0.1'
+    implementation group: 'org.apache.tomcat.embed', name: 'tomcat-embed-core', version: '10.1.0-M14'
+
+    implementation group: 'org.springframework', name: 'spring-jdbc', version: '5.3.19'
+    implementation "io.springfox:springfox-boot-starter:3.0.0"
+}

@@ -1,0 +1,11 @@
+jar.enabled=true
+
+dependencies {
+    implementation project(":model")
+    implementation project(":core")
+    implementation project(":persistence")
+
+    // https://mvnrepository.com/artifact/org.springframework/spring-tx
+    implementation group: 'org.springframework', name: 'spring-tx', version: '5.3.20'
+
+}

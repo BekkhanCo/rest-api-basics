@@ -1,0 +1,10 @@
+jar.enabled=true
+
+dependencies {
+    implementation project(":model")
+    implementation project(":core")
+
+    // https://mvnrepository.com/artifact/org.springframework/spring-jdbc
+    implementation group: 'org.springframework', name: 'spring-jdbc', version: '5.3.19'
+
+}
